@@ -22,6 +22,7 @@
     "format:check": "nx format:check",
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
+    "postversion": "npm run affected:build",
     "dep-graph": "nx dep-graph",
     "publish:libs": "lerna publish",
     "help": "nx help"
